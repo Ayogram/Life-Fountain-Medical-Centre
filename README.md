@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Life Fountain Medical Centre 🏥
 
-## Getting Started
+A professional, production-ready website and admin portal for Life Fountain Medical Centre. Built with Next.js, TypeScript, Tailwind CSS, and Supabase.
 
-First, run the development server:
+## 🚀 Features
 
+-   **Public Website**: Hero section, service overviews, doctor profiles, facility gallery, and health blog.
+-   **Appointment Booking**: Multi-step, interactive booking form.
+-   **Admin Portal**: Secure dashboard for managing appointments, blog posts, doctors, and services.
+-   **Emergency Alerts**: Real-time, collapsible emergency care banner.
+-   **Responsive Design**: Optimized for mobile, tablet, and desktop.
+-   **Performance**: Fast-loading pages with clean, modern healthcare UI principles.
+
+## 🛠️ Tech Stack
+
+-   **Frontend**: Next.js (App Router), TypeScript, Tailwind CSS 4.0
+-   **Animations**: Framer Motion
+-   **Icons**: Lucide React
+-   **Backend**: Supabase (Database, Auth)
+-   **Deployment**: Vercel
+
+## 📦 Getting Started
+
+### 1. Install Dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure Environment Variables
+Create a `.env.local` file with your Supabase credentials:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run Locally
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) (or 3001 if 3000 is busy).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔄 GitHub Automation
 
-## Learn More
+I've added a special command to make GitHub updates effortless:
 
-To learn more about Next.js, take a look at the following resources:
+-   **`npm run sync`**: Automatically adds, commits, and pushes all changes to the main branch.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*Note: For AI-assisted development, I will automatically push changes after every successful task completion.*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏗️ Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project is pre-configured for **Vercel**. Simply connect your GitHub repository to Vercel for instant, 24/7 hosting.
